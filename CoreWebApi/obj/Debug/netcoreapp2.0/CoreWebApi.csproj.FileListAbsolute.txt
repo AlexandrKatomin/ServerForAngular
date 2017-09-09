@@ -1,0 +1,10 @@
+C:\Users\Alex\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp2.0\CoreWebApi.deps.json
+C:\Users\Alex\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp2.0\CoreWebApi.runtimeconfig.json
+C:\Users\Alex\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp2.0\CoreWebApi.runtimeconfig.dev.json
+C:\Users\Alex\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp2.0\CoreWebApi.dll
+C:\Users\Alex\RiderProjects\CoreWebApi\CoreWebApi\bin\Debug\netcoreapp2.0\CoreWebApi.pdb
+C:\Users\Alex\RiderProjects\CoreWebApi\CoreWebApi\obj\Debug\netcoreapp2.0\CoreWebApi.csproj.CoreCompileInputs.cache
+C:\Users\Alex\RiderProjects\CoreWebApi\CoreWebApi\obj\Debug\netcoreapp2.0\CoreWebApi.AssemblyInfoInputs.cache
+C:\Users\Alex\RiderProjects\CoreWebApi\CoreWebApi\obj\Debug\netcoreapp2.0\CoreWebApi.AssemblyInfo.cs
+C:\Users\Alex\RiderProjects\CoreWebApi\CoreWebApi\obj\Debug\netcoreapp2.0\CoreWebApi.dll
+C:\Users\Alex\RiderProjects\CoreWebApi\CoreWebApi\obj\Debug\netcoreapp2.0\CoreWebApi.pdb

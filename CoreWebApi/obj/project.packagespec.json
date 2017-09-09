@@ -1,0 +1,52 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\Alex\\RiderProjects\\CoreWebApi\\CoreWebApi\\CoreWebApi.csproj",
+    "projectName": "CoreWebApi",
+    "projectPath": "C:\\Users\\Alex\\RiderProjects\\CoreWebApi\\CoreWebApi\\CoreWebApi.csproj",
+    "outputPath": "C:\\Users\\Alex\\RiderProjects\\CoreWebApi\\CoreWebApi\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "2.0.0"
+        },
+        "CoreCompat.System.Drawing.v2": {
+          "target": "Package",
+          "version": "5.2.0-preview1-r131"
+        },
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "2.0.0"
+        },
+        "Microsoft.AspNetCore.Session": {
+          "target": "Package",
+          "version": "2.0.0"
+        },
+        "Microsoft.Extensions.Caching.Memory": {
+          "target": "Package",
+          "version": "2.0.0"
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "10.0.3"
+        },
+        "System.ServiceModel.Http": {
+          "target": "Package",
+          "version": "4.4.0"
+        }
+      }
+    }
+  }
+}
