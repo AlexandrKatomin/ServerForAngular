@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfcae5b2-8f53-434b-9f32-f224d5e4247e" name="Default" comment="" />
+    <list default="true" id="bfcae5b2-8f53-434b-9f32-f224d5e4247e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CoreWebApi/Captcha3.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreWebApi/CaptchaBLL.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CoreWebApi/Controllers/CaptchaController.cs" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreWebApi/bin/Debug/netcoreapp2.0/CoreWebApi.dll" afterPath="$PROJECT_DIR$/CoreWebApi/bin/Debug/netcoreapp2.0/CoreWebApi.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreWebApi/bin/Debug/netcoreapp2.0/CoreWebApi.pdb" afterPath="$PROJECT_DIR$/CoreWebApi/bin/Debug/netcoreapp2.0/CoreWebApi.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreWebApi/obj/Debug/netcoreapp2.0/CoreWebApi.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/CoreWebApi/obj/Debug/netcoreapp2.0/CoreWebApi.csproj.CoreCompileInputs.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreWebApi/obj/Debug/netcoreapp2.0/CoreWebApi.dll" afterPath="$PROJECT_DIR$/CoreWebApi/obj/Debug/netcoreapp2.0/CoreWebApi.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreWebApi/obj/Debug/netcoreapp2.0/CoreWebApi.pdb" afterPath="$PROJECT_DIR$/CoreWebApi/obj/Debug/netcoreapp2.0/CoreWebApi.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.CoreWebApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CoreWebApi/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreWebApi/CoreWebApi.csproj" afterPath="$PROJECT_DIR$/CoreWebApi/CoreWebApi.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoreWebApi/Startup.cs" afterPath="$PROJECT_DIR$/CoreWebApi/Startup.cs" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +27,7 @@
       <file leaf-file-name="CaptchaImage.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CoreWebApi/CaptchaImage.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
+            <state relative-caret-position="-178">
               <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <marker date="1504912401993" expanded="false" signature="6:136" ph="..." />
@@ -31,49 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CaptchaBLL.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreWebApi/CaptchaBLL.cs">
+      <file leaf-file-name="Captcha.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CoreWebApi/Captcha.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-903">
-              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="252">
+              <caret line="24" column="79" lean-forward="false" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
               <folding>
-                <marker date="1504916396313" expanded="false" signature="6:222" ph="..." />
-                <marker date="1504916396313" expanded="true" signature="244:4564" ph="{...}" />
-                <marker date="1504916396313" expanded="true" signature="274:4562" ph="{...}" />
-                <marker date="1504916396313" expanded="true" signature="509:672" ph="/* private const string _chars = &quot;ABCDEFGHIJKLMNPQRSTUVWXYZ123456789&quot;; ... */" />
-                <marker date="1504916396313" expanded="true" signature="946:1255" ph="{...}" />
-                <marker date="1504916396313" expanded="true" signature="1389:1621" ph="{...}" />
-                <marker date="1504916396313" expanded="true" signature="1685:3374" ph="{...}" />
-                <marker date="1504916396313" expanded="true" signature="1766:3364" ph="{...}" />
-                <marker date="1504916396313" expanded="true" signature="2341:2938" ph="{...}" />
-                <marker date="1504916396313" expanded="true" signature="3094:3307" ph="{...}" />
-                <marker date="1504916396313" expanded="true" signature="3438:3639" ph="{...}" />
-                <marker date="1504916396313" expanded="true" signature="3720:4206" ph="{...}" />
-                <marker date="1504916396313" expanded="true" signature="3774:4196" ph="{...}" />
-                <marker date="1504916396313" expanded="true" signature="3983:4124" ph="{...}" />
-                <marker date="1504916396313" expanded="true" signature="4268:4547" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CaptchaController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/CaptchaController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <marker date="1504917506327" expanded="false" signature="6:194" ph="..." />
-                <marker date="1504917506327" expanded="true" signature="228:3037" ph="{...}" />
-                <marker date="1504917506327" expanded="true" signature="308:3035" ph="{...}" />
-                <marker date="1504917506327" expanded="true" signature="489:749" ph="{...}" />
-                <marker date="1504917506327" expanded="true" signature="515:624" ph="{...}" />
-                <marker date="1504917506327" expanded="true" signature="640:739" ph="{...}" />
-                <marker date="1504917506327" expanded="true" signature="789:1051" ph="{...}" />
-                <marker date="1504917506327" expanded="true" signature="815:925" ph="{...}" />
-                <marker date="1504917506327" expanded="true" signature="941:1041" ph="{...}" />
-                <marker date="1504917506327" expanded="true" signature="1118:2667" ph="/* [HttpGet] ... */" />
-                <marker date="1504917506327" expanded="true" signature="2753:3023" ph="{...}" />
+                <marker date="1505163702643" expanded="true" signature="6:133" ph="..." />
+                <marker date="1505163702643" expanded="true" signature="155:1608" ph="{...}" />
+                <marker date="1505163702643" expanded="true" signature="183:1606" ph="{...}" />
+                <marker date="1505163702643" expanded="true" signature="245:1198" ph="{...}" />
+                <marker date="1505163702643" expanded="true" signature="425:1160" ph="{...}" />
+                <marker date="1505163702643" expanded="true" signature="564:1146" ph="{...}" />
+                <marker date="1505163702643" expanded="true" signature="1244:1600" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -82,18 +64,33 @@
       <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CoreWebApi/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+            <state relative-caret-position="284">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <marker date="1504928650663" expanded="true" signature="6:469" ph="..." />
-                <marker date="1504928650663" expanded="true" signature="491:2272" ph="{...}" />
-                <marker date="1504928650663" expanded="true" signature="518:2270" ph="{...}" />
-                <marker date="1504928650663" expanded="true" signature="577:653" ph="{...}" />
-                <marker date="1504928650663" expanded="true" signature="876:1762" ph="{...}" />
-                <marker date="1504928650663" expanded="true" signature="1393:1750" ph="{...}" />
-                <marker date="1504928650663" expanded="true" signature="1473:1736" ph="{...}" />
-                <marker date="1504928650663" expanded="true" signature="1950:2264" ph="{...}" />
-                <marker date="1504928650663" expanded="true" signature="2030:2222" ph="{...}" />
+                <marker date="1505160879729" expanded="true" signature="6:469" ph="..." />
+                <marker date="1505160879729" expanded="true" signature="492:2555" ph="{...}" />
+                <marker date="1505160879729" expanded="true" signature="519:2553" ph="{...}" />
+                <marker date="1505160879729" expanded="true" signature="578:654" ph="{...}" />
+                <marker date="1505160879729" expanded="true" signature="877:2015" ph="{...}" />
+                <marker date="1505160879729" expanded="true" signature="1646:2003" ph="{...}" />
+                <marker date="1505160879729" expanded="true" signature="1726:1989" ph="{...}" />
+                <marker date="1505160879729" expanded="true" signature="2203:2547" ph="{...}" />
+                <marker date="1505160879729" expanded="true" signature="2313:2505" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CaptchaController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/CaptchaController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding>
+                <marker date="1505162694029" expanded="true" signature="6:172" ph="..." />
+                <marker date="1505162694029" expanded="true" signature="206:554" ph="{...}" />
+                <marker date="1505162694029" expanded="true" signature="286:552" ph="{...}" />
+                <marker date="1505162694029" expanded="true" signature="385:546" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -102,8 +99,8 @@
       <file leaf-file-name="TopicController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/TopicController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="441">
+              <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <marker date="1504648233221" expanded="true" signature="6:171" ph="..." />
                 <marker date="1504648233221" expanded="true" signature="205:758" ph="{...}" />
@@ -115,23 +112,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActionContext.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/928C9570-91EA-4C8C-9203-C5100319586E/f2/b5c30da6/ActionContext.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-630">
-              <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MessageController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/MessageController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="33" column="67" lean-forward="false" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+            <state relative-caret-position="273">
+              <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
               <folding>
-                <marker date="1504931333631" expanded="true" signature="6:176" ph="..." />
+                <marker date="1504931333631" expanded="false" signature="6:176" ph="..." />
                 <marker date="1504931333631" expanded="true" signature="210:1408" ph="{...}" />
                 <marker date="1504931333631" expanded="true" signature="292:1406" ph="{...}" />
                 <marker date="1504931333631" expanded="true" signature="389:435" ph="{...}" />
@@ -145,18 +132,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopicOfMessage.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CoreWebApi/entity/TopicOfMessage.cs">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CoreWebApi/wwwroot/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding>
-                <marker date="1504785016749" expanded="false" signature="6:170" ph="..." />
-                <marker date="1504785016749" expanded="true" signature="199:576" ph="{...}" />
-                <marker date="1504785016749" expanded="true" signature="233:574" ph="{...}" />
-                <marker date="1504785016749" expanded="true" signature="451:515" ph="{...}" />
-                <marker date="1504785016749" expanded="true" signature="548:568" ph="{...}" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,10 +145,10 @@
       <file leaf-file-name="TestDBContext.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CoreWebApi/entity/TestDBContext.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="462">
               <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding>
-                <marker date="1504931111744" expanded="true" signature="6:89" ph="..." />
+                <marker date="1504931111744" expanded="false" signature="6:89" ph="..." />
                 <marker date="1504931111744" expanded="true" signature="118:1005" ph="{...}" />
                 <marker date="1504931111744" expanded="true" signature="162:1003" ph="{...}" />
                 <marker date="1504931111744" expanded="true" signature="253:264" ph="{...}" />
@@ -187,19 +168,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/928C9570-91EA-4C8C-9203-C5100319586E/17/e7c320b0/FilterContext.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B171A991-0D49-4DB6-AAA0-21FA61085D00/06/279c7a65/Image.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CoreWebApi/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CoreWebApi/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7469EA46-1AEA-47E2-BA3B-AAD4E0506E84/4c/e65de349/ControllerBase.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/928C9570-91EA-4C8C-9203-C5100319586E/f2/b5c30da6/ActionContext.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/928C9570-91EA-4C8C-9203-C5100319586E/f2/b5c30da6/ActionContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CoreWebApi/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CoreWebApi/CaptchaBLL.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CoreWebApi/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CoreWebApi/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CoreWebApi/Controllers/CaptchaController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CoreWebApi/Views/Home2/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CoreWebApi/Controllers/TopicController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CoreWebApi/Captcha.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BB51DF4E-1EAE-4C38-ABFF-BCC90221F7DD/14/b2cde96d/MediaTypeHeaderValue.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7469EA46-1AEA-47E2-BA3B-AAD4E0506E84/41/46184229/HttpPostAttribute.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0998BF91-1F01-4E78-84D2-695C95A67016/9e/99ebb42f/DbSet`1.cs" root0="FORCE_HIGHLIGHTING" />
@@ -213,7 +198,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B171A991-0D49-4DB6-AAA0-21FA61085D00/94/4a967fd9/Graphics.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/928C9570-91EA-4C8C-9203-C5100319586E/06/0cf4872c/ActionExecutingContext.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/CoreWebApi/Controllers/MessageController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CoreWebApi/Controllers/CaptchaController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -250,14 +234,17 @@
         <option value="$PROJECT_DIR$/CoreWebApi/Captcha2.cs" />
         <option value="$PROJECT_DIR$/CoreWebApi/CaptchaBLL.cs" />
         <option value="$PROJECT_DIR$/CoreWebApi/Controllers/MyCaptchaController.cs" />
-        <option value="$PROJECT_DIR$/CoreWebApi/Controllers/CaptchaController.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/928C9570-91EA-4C8C-9203-C5100319586E/06/0cf4872c/ActionExecutingContext.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/928C9570-91EA-4C8C-9203-C5100319586E/17/e7c320b0/FilterContext.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/928C9570-91EA-4C8C-9203-C5100319586E/f2/b5c30da6/ActionContext.cs" />
-        <option value="$PROJECT_DIR$/CoreWebApi/Startup.cs" />
         <option value="$PROJECT_DIR$/CoreWebApi/Controllers/AllowCrossSiteJsonAttribute.cs" />
         <option value="$PROJECT_DIR$/CoreWebApi/entity/TestDBContext.cs" />
         <option value="$PROJECT_DIR$/CoreWebApi/Controllers/MessageController.cs" />
+        <option value="$PROJECT_DIR$/CoreWebApi/Controllers/Class1.cs" />
+        <option value="$PROJECT_DIR$/CoreWebApi/Startup.cs" />
+        <option value="$PROJECT_DIR$/CoreWebApi/Controllers/Capcha2Controller.cs" />
+        <option value="$PROJECT_DIR$/CoreWebApi/Captcha3.cs" />
+        <option value="$PROJECT_DIR$/CoreWebApi/Controllers/CaptchaController.cs" />
       </list>
     </option>
   </component>
@@ -268,11 +255,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-3" />
+    <option name="width" value="1932" />
+    <option name="height" value="1009" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <flattenPackages />
@@ -288,7 +275,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -319,24 +305,6 @@
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoreWebApi (1 project)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoreWebApi" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
@@ -345,6 +313,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -469,12 +438,14 @@
       <workItem from="1504795786485" duration="12160000" />
       <workItem from="1504911032264" duration="3352000" />
       <workItem from="1504915415784" duration="2861000" />
-      <workItem from="1504926990966" duration="3611000" />
+      <workItem from="1504926990966" duration="8087000" />
+      <workItem from="1505080575046" duration="1636000" />
+      <workItem from="1505157761865" duration="8791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60822000" />
+    <option name="totallyTimeSpent" value="75725000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -486,22 +457,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-3" y="0" width="1932" height="1009" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30011326" sideWeight="0.528464" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30011326" sideWeight="0.53071123" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30011326" sideWeight="0.47153598" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29931194" sideWeight="0.4692888" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3578709" sideWeight="0.49353448" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4020385" sideWeight="0.48066595" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26100966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33861834" sideWeight="0.48925886" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40137616" sideWeight="0.48066595" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33960292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33830276" sideWeight="0.48925886" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -524,20 +495,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/Views/Home/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CoreWebApi/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -545,14 +502,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/ValuesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="16" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/ValuesController.cs" />
     <entry file="file://$PROJECT_DIR$/CoreWebApi/Views/Home/Index.html" />
     <entry file="file://$PROJECT_DIR$/CoreWebApi/wwwroot/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -603,22 +553,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/Home2Controller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/ValuesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/Home2Controller.cs" />
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/ValuesController.cs" />
     <entry file="file://$PROJECT_DIR$/CoreWebApi/appsettings.Development.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -632,13 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/wwwroot/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -725,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2709">
           <caret line="129" column="27" lean-forward="false" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23205">
           <caret line="1105" column="16" lean-forward="false" selection-start-line="1105" selection-start-column="16" selection-end-line="1105" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,135 +689,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/928C9570-91EA-4C8C-9203-C5100319586E/f2/b5c30da6/ActionContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
+        <state relative-caret-position="252">
           <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-          <folding>
-            <marker date="1504928650663" expanded="true" signature="6:469" ph="..." />
-            <marker date="1504928650663" expanded="true" signature="491:2272" ph="{...}" />
-            <marker date="1504928650663" expanded="true" signature="518:2270" ph="{...}" />
-            <marker date="1504928650663" expanded="true" signature="577:653" ph="{...}" />
-            <marker date="1504928650663" expanded="true" signature="876:1762" ph="{...}" />
-            <marker date="1504928650663" expanded="true" signature="1393:1750" ph="{...}" />
-            <marker date="1504928650663" expanded="true" signature="1473:1736" ph="{...}" />
-            <marker date="1504928650663" expanded="true" signature="1950:2264" ph="{...}" />
-            <marker date="1504928650663" expanded="true" signature="2030:2222" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/TopicController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <marker date="1504648233221" expanded="true" signature="6:171" ph="..." />
-            <marker date="1504648233221" expanded="true" signature="205:758" ph="{...}" />
-            <marker date="1504648233221" expanded="true" signature="285:756" ph="{...}" />
-            <marker date="1504648233221" expanded="true" signature="380:426" ph="{...}" />
-            <marker date="1504648233221" expanded="true" signature="488:750" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/CaptchaImage.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1504912401993" expanded="false" signature="6:136" ph="..." />
-            <marker date="1504912401993" expanded="true" signature="157:1404" ph="{...}" />
-            <marker date="1504912401993" expanded="true" signature="189:1397" ph="{...}" />
-            <marker date="1504912401993" expanded="true" signature="463:600" ph="{...}" />
-            <marker date="1504912401993" expanded="true" signature="668:1062" ph="{...}" />
-            <marker date="1504912401993" expanded="true" signature="1088:1136" ph="{...}" />
-            <marker date="1504912401993" expanded="true" signature="1168:1254" ph="{...}" />
-            <marker date="1504912401993" expanded="true" signature="1311:1391" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/CaptchaBLL.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-903">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <marker date="1504916396313" expanded="false" signature="6:222" ph="..." />
-            <marker date="1504916396313" expanded="true" signature="244:4564" ph="{...}" />
-            <marker date="1504916396313" expanded="true" signature="274:4562" ph="{...}" />
-            <marker date="1504916396313" expanded="true" signature="509:672" ph="/* private const string _chars = &quot;ABCDEFGHIJKLMNPQRSTUVWXYZ123456789&quot;; ... */" />
-            <marker date="1504916396313" expanded="true" signature="946:1255" ph="{...}" />
-            <marker date="1504916396313" expanded="true" signature="1389:1621" ph="{...}" />
-            <marker date="1504916396313" expanded="true" signature="1685:3374" ph="{...}" />
-            <marker date="1504916396313" expanded="true" signature="1766:3364" ph="{...}" />
-            <marker date="1504916396313" expanded="true" signature="2341:2938" ph="{...}" />
-            <marker date="1504916396313" expanded="true" signature="3094:3307" ph="{...}" />
-            <marker date="1504916396313" expanded="true" signature="3438:3639" ph="{...}" />
-            <marker date="1504916396313" expanded="true" signature="3720:4206" ph="{...}" />
-            <marker date="1504916396313" expanded="true" signature="3774:4196" ph="{...}" />
-            <marker date="1504916396313" expanded="true" signature="3983:4124" ph="{...}" />
-            <marker date="1504916396313" expanded="true" signature="4268:4547" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/ValuesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/AllowCrossSiteJsonAttribute.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/CaptchaController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <marker date="1504917506327" expanded="false" signature="6:194" ph="..." />
-            <marker date="1504917506327" expanded="true" signature="228:3037" ph="{...}" />
-            <marker date="1504917506327" expanded="true" signature="308:3035" ph="{...}" />
-            <marker date="1504917506327" expanded="true" signature="489:749" ph="{...}" />
-            <marker date="1504917506327" expanded="true" signature="515:624" ph="{...}" />
-            <marker date="1504917506327" expanded="true" signature="640:739" ph="{...}" />
-            <marker date="1504917506327" expanded="true" signature="789:1051" ph="{...}" />
-            <marker date="1504917506327" expanded="true" signature="815:925" ph="{...}" />
-            <marker date="1504917506327" expanded="true" signature="941:1041" ph="{...}" />
-            <marker date="1504917506327" expanded="true" signature="1118:2667" ph="/* [HttpGet] ... */" />
-            <marker date="1504917506327" expanded="true" signature="2753:3023" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/MyCaptchaController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/ValuesController.cs" />
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/AllowCrossSiteJsonAttribute.cs" />
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/MyCaptchaController.cs" />
     <entry file="file://$PROJECT_DIR$/CoreWebApi/entity/TopicOfMessage.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -907,20 +717,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/Home2Controller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/Home2Controller.cs" />
     <entry file="file://$PROJECT_DIR$/CoreWebApi/entity/TestDBContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="462">
           <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
           <folding>
-            <marker date="1504931111744" expanded="true" signature="6:89" ph="..." />
+            <marker date="1504931111744" expanded="false" signature="6:89" ph="..." />
             <marker date="1504931111744" expanded="true" signature="118:1005" ph="{...}" />
             <marker date="1504931111744" expanded="true" signature="162:1003" ph="{...}" />
             <marker date="1504931111744" expanded="true" signature="253:264" ph="{...}" />
@@ -930,12 +733,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/MessageController.cs">
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/wwwroot/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="33" column="67" lean-forward="false" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1504931333631" expanded="true" signature="6:176" ph="..." />
+            <marker date="1505160879729" expanded="true" signature="6:469" ph="..." />
+            <marker date="1505160879729" expanded="true" signature="492:2555" ph="{...}" />
+            <marker date="1505160879729" expanded="true" signature="519:2553" ph="{...}" />
+            <marker date="1505160879729" expanded="true" signature="578:654" ph="{...}" />
+            <marker date="1505160879729" expanded="true" signature="877:2015" ph="{...}" />
+            <marker date="1505160879729" expanded="true" signature="1646:2003" ph="{...}" />
+            <marker date="1505160879729" expanded="true" signature="1726:1989" ph="{...}" />
+            <marker date="1505160879729" expanded="true" signature="2203:2547" ph="{...}" />
+            <marker date="1505160879729" expanded="true" signature="2313:2505" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/MessageController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding>
+            <marker date="1504931333631" expanded="false" signature="6:176" ph="..." />
             <marker date="1504931333631" expanded="true" signature="210:1408" ph="{...}" />
             <marker date="1504931333631" expanded="true" signature="292:1406" ph="{...}" />
             <marker date="1504931333631" expanded="true" signature="389:435" ph="{...}" />
@@ -944,6 +773,87 @@
             <marker date="1504931333631" expanded="true" signature="679:1382" ph="{...}" />
             <marker date="1504931333631" expanded="true" signature="1015:1111" ph="{...}" />
             <marker date="1504931333631" expanded="true" signature="1132:1221" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/TopicController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <marker date="1504648233221" expanded="true" signature="6:171" ph="..." />
+            <marker date="1504648233221" expanded="true" signature="205:758" ph="{...}" />
+            <marker date="1504648233221" expanded="true" signature="285:756" ph="{...}" />
+            <marker date="1504648233221" expanded="true" signature="380:426" ph="{...}" />
+            <marker date="1504648233221" expanded="true" signature="488:750" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/CaptchaController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <marker date="1505162694029" expanded="true" signature="6:172" ph="..." />
+            <marker date="1505162694029" expanded="true" signature="206:554" ph="{...}" />
+            <marker date="1505162694029" expanded="true" signature="286:552" ph="{...}" />
+            <marker date="1505162694029" expanded="true" signature="385:546" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/CaptchaBLL.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1438">
+          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/Controllers/CaptchaController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <marker date="1505162694029" expanded="true" signature="6:172" ph="..." />
+            <marker date="1505162694029" expanded="true" signature="206:554" ph="{...}" />
+            <marker date="1505162694029" expanded="true" signature="286:552" ph="{...}" />
+            <marker date="1505162694029" expanded="true" signature="385:546" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/CaptchaImage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1504912401993" expanded="false" signature="6:136" ph="..." />
+            <marker date="1504912401993" expanded="true" signature="157:1404" ph="{...}" />
+            <marker date="1504912401993" expanded="true" signature="189:1397" ph="{...}" />
+            <marker date="1504912401993" expanded="true" signature="463:600" ph="{...}" />
+            <marker date="1504912401993" expanded="true" signature="668:1062" ph="{...}" />
+            <marker date="1504912401993" expanded="true" signature="1088:1136" ph="{...}" />
+            <marker date="1504912401993" expanded="true" signature="1168:1254" ph="{...}" />
+            <marker date="1504912401993" expanded="true" signature="1311:1391" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreWebApi/Captcha.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" column="79" lean-forward="false" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+          <folding>
+            <marker date="1505163702643" expanded="true" signature="6:133" ph="..." />
+            <marker date="1505163702643" expanded="true" signature="155:1608" ph="{...}" />
+            <marker date="1505163702643" expanded="true" signature="183:1606" ph="{...}" />
+            <marker date="1505163702643" expanded="true" signature="245:1198" ph="{...}" />
+            <marker date="1505163702643" expanded="true" signature="425:1160" ph="{...}" />
+            <marker date="1505163702643" expanded="true" signature="564:1146" ph="{...}" />
+            <marker date="1505163702643" expanded="true" signature="1244:1600" ph="{...}" />
           </folding>
         </state>
       </provider>
