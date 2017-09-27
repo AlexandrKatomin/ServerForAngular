@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "CoreCompat.System.Drawing.v2/5.2.0-preview1-r131": {
@@ -12821,6 +12821,7 @@
     ".NETCoreApp,Version=v2.0": [
       "CoreCompat.System.Drawing.v2 >= 5.2.0-preview1-r131",
       "Microsoft.AspNetCore.All >= 2.0.0",
+      "Microsoft.AspNetCore.ResponseCaching >= 2.0.0",
       "Microsoft.AspNetCore.Session >= 2.0.0",
       "Microsoft.Extensions.Caching.Memory >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
@@ -12837,11 +12838,18 @@
       "projectUniqueName": "C:\\Users\\Alex\\RiderProjects\\CoreWebApi\\CoreWebApi\\CoreWebApi.csproj",
       "projectName": "CoreWebApi",
       "projectPath": "C:\\Users\\Alex\\RiderProjects\\CoreWebApi\\CoreWebApi\\CoreWebApi.csproj",
+      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Alex\\RiderProjects\\CoreWebApi\\CoreWebApi\\obj\\",
       "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {}
@@ -12863,6 +12871,10 @@
             "target": "Package",
             "version": "2.0.0"
           },
+          "Microsoft.AspNetCore.ResponseCaching": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
           "Microsoft.AspNetCore.Session": {
             "target": "Package",
             "version": "2.0.0"
@@ -12879,7 +12891,12 @@
             "target": "Package",
             "version": "4.4.0"
           }
-        }
+        },
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
       }
     }
   }

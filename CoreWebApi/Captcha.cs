@@ -13,8 +13,8 @@ namespace CoreWebApi
         public string Generate(Stream stream)
         {
             string captcha = GenerateRandomString();
-            int height = 40;
-            int width = 160;
+            int height = 25;
+            int width = 90;
             using (Bitmap bmp = new Bitmap(width, height))
             {
                 RectangleF rectf = new RectangleF(30, 5, 0, 0);
@@ -24,7 +24,7 @@ namespace CoreWebApi
                     g.SmoothingMode = SmoothingMode.AntiAlias;
                     g.InterpolationMode = InterpolationMode.HighQualityBicubic;
                     g.PixelOffsetMode = PixelOffsetMode.HighQuality;
-                    g.DrawString(captcha, new Font("Georgia", 18, FontStyle.Italic), Brushes.Aquamarine, rectf);
+                    g.DrawString(captcha, new Font("Georgia", 12, FontStyle.Italic), Brushes.Blue, rectf);
                     g.DrawRectangle(new Pen(Color.BurlyWood), 1, 1, width - 2, height - 2);
                     g.Flush();
                     bmp.Save(stream, ImageFormat.Jpeg);
@@ -35,7 +35,7 @@ namespace CoreWebApi
         private string GenerateRandomString()
         {
             Random random = new Random();
-            string combination = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+            string combination = "0123456789";
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < 4; i++)
             sb.Append(combination[random.Next(combination.Length)]);

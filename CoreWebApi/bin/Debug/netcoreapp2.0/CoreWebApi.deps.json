@@ -25,6 +25,7 @@
         "dependencies": {
           "CoreCompat.System.Drawing.v2": "5.2.0-preview1-r131",
           "Microsoft.AspNetCore.All": "2.0.0",
+          "Microsoft.AspNetCore.ResponseCaching": "2.0.0",
           "Microsoft.AspNetCore.Session": "2.0.0",
           "Microsoft.Extensions.Caching.Memory": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0",
