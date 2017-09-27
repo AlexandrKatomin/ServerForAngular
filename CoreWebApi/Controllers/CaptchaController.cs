@@ -17,18 +17,19 @@ namespace CoreWebApi.Controllers
         public void  Get()
         {
             string captcha;
-            this.HttpContext.Session.SetString("Captcha", captcha);
+            
            
             Response.Clear();
             Response.ContentType = "image/jpeg";
             captcha = new Captcha3().Generate(Response.Body);
+            HttpContext.Session.SetString("Captcha", captcha);
         }
         
         [HttpGet("{captcha}")]
         public Boolean Get(string captcha)
         {
             Console.WriteLine( HttpContext.Session.GetString("Captcha"));
-            return  this.captcha.Equals( HttpContext.Session.GetString("Captcha"));
+            return  captcha.Equals( HttpContext.Session.GetString("Captcha"));
         }
     }
 }

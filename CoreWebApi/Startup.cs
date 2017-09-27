@@ -31,13 +31,15 @@ namespace CoreWebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            
             services.AddDistributedMemoryCache();
             services.AddSession(options =>
             {
                 options.CookieName = ".MyApp.Session";
                 options.IdleTimeout = TimeSpan.FromSeconds(3600);
+                options.Cookie.HttpOnly = true;
             });
+            services.AddMvc();
             /*services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();*/
             services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin()
                 .AllowAnyMethod()
@@ -60,7 +62,7 @@ namespace CoreWebApi
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            //app.UseSession();
+            app.UseSession();
             app.UseCors("AllowAll");
             app.UseMvc(routes =>
                 {
