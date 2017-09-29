@@ -16,6 +16,7 @@ using Microsoft.Net.Http.Headers;
 using Microsoft.AspNetCore.ResponseCaching;
 
 
+
 namespace CoreWebApi
 {
     public class Startup
@@ -35,16 +36,16 @@ namespace CoreWebApi
             services.AddDistributedMemoryCache();
             services.AddSession(options =>
             {
-                options.CookieName = ".MyApp.Session";
+                //options.CookieName = ".MyApp.Session";
                 options.IdleTimeout = TimeSpan.FromSeconds(3600);
                 options.Cookie.HttpOnly = true;
             });
             services.AddMvc();
             /*services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();*/
-            services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin()
+          /*  services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin()
                 .AllowAnyMethod()
                 .AllowAnyHeader()));     
-          
+          */
             string connection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<TestDBContext>(options =>
                 options.UseSqlServer(connection));
@@ -63,7 +64,12 @@ namespace CoreWebApi
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseSession();
+            
             app.UseCors("AllowAll");
+            app.UseCors(builder =>
+                builder.WithOrigins("http://localhost:4200")
+                    .AllowAnyHeader()
+                    .AllowAnyMethod());
             app.UseMvc(routes =>
                 {
                     routes.MapRoute(
@@ -71,6 +77,9 @@ namespace CoreWebApi
                         template: "{controller=Home2}/{action=Index}/{id?}");
                 }
             );
+            app.Run(async (context) =>
+            {
+            });
         }
     }
 }
