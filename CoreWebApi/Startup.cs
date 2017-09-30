@@ -24,7 +24,6 @@ namespace CoreWebApi
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            
         }
 
         public IConfiguration Configuration { get; }
@@ -32,20 +31,13 @@ namespace CoreWebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
             services.AddDistributedMemoryCache();
             services.AddSession(options =>
             {
-                //options.CookieName = ".MyApp.Session";
-                options.IdleTimeout = TimeSpan.FromSeconds(3600);
+                options.IdleTimeout = TimeSpan.FromSeconds(300);
                 options.Cookie.HttpOnly = true;
             });
             services.AddMvc();
-            /*services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();*/
-          /*  services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin()
-                .AllowAnyMethod()
-                .AllowAnyHeader()));     
-          */
             string connection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<TestDBContext>(options =>
                 options.UseSqlServer(connection));
@@ -64,8 +56,6 @@ namespace CoreWebApi
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseSession();
-            
-            app.UseCors("AllowAll");
             app.UseCors(builder =>
                 builder.WithOrigins("http://localhost:4200")
                     .AllowAnyHeader()
@@ -77,9 +67,6 @@ namespace CoreWebApi
                         template: "{controller=Home2}/{action=Index}/{id?}");
                 }
             );
-            app.Run(async (context) =>
-            {
-            });
         }
     }
 }
